@@ -1,4 +1,4 @@
-package com.hei.school.service.event;
+package com.hei.school.service.event.Service;
 import java.math.BigInteger;
 import org.springframework.stereotype.Service;
 @Service

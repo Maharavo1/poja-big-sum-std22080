@@ -1,5 +1,5 @@
-package com.hei.school.endpoint;
-import com.hei.school.service.event.BigSumService;
+package com.hei.school.endpoint.rest.controller.health.Controller;
+import com.hei.school.service.event.Service.BigSumService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
