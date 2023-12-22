@@ -4,8 +4,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class BigSumService {
     public BigInteger add(String a, String b) {
-        BigInteger bigsumA = new BigInteger(a);
-        BigInteger bigsumB = new BigInteger(b);
-        return bigsumA.add(bigsumB);
+        BigInteger bigA = new BigInteger(a);
+        BigInteger bigB = new BigInteger(b);
+        return bigA.add(bigB);
     }
 }

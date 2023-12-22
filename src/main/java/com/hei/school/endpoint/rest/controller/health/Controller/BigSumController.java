@@ -12,7 +12,6 @@ public class BigSumController {
     public BigSumController(BigSumService service) {
         this.service = service;
     }
-    @GetMapping("/big-sum")
     public BigInteger add(@RequestParam(name = "a") String a,
                           @RequestParam(name = "b") String b) {
         return service.add(a, b);
